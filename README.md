@@ -46,17 +46,24 @@ Built with Chart.js/Recharts for professional-grade data visualization.
 
 ## Tech Stack
 
-**Machine Learning:**	PyTorch, torchvision, OpenCV, NumPy, pandas, scikit-learn\\
-**Data Storage:**	PostgreSQL (AWS RDS), AWS S3, SQLAlchemy ORM\\
-**Backend:**	FastAPI, Python 3.10, Uvicorn, Pydantic\\
-**Frontend:**	Next.js, React, TailwindCSS, Chart.js/Recharts\\
-**Containerization:**	Docker, Docker Compose\\
-**Cloud Deployment:**	AWS EC2, RDS, S3\\
-**CI/CD:**	GitHub Actions\\
-**Agile Practices:**	Scrum, Git branching workflows, feature PR reviews\\
+**Machine Learning:**	PyTorch, torchvision (ResNet), OpenCV, scikit-learn, NumPy, pandas
+
+**Data Storage:** PostgreSQL, SQLAlchemy ORM
+
+**Backend:**	FastAPI, Python 3.10, Uvicorn, Pydantic
+
+**Frontend:**	Next.js, React, TailwindCSS, Chart.js/Recharts
+
+**Containerization:**	Docker, Docker Compose
+
+**Cloud Deployment:**	Render / Railway / Vercel
+
+**CI/CD:**	GitHub Actions
+
+**Agile Practices:**	Scrum, Git branching workflows (feature branches, PRs)
 
 
-🏛️ Architecture Overview
+## Architecture Overview
 
 Here’s how Sentiview’s components communicate:
 
