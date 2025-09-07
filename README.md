@@ -67,48 +67,46 @@ Built with Chart.js/Recharts for professional-grade data visualization.
 
 Here’s how Sentiview’s components communicate:
 
-Frontend (Next.js):
+**1. Frontend:**
 
 User uploads an image through the web app.
 
 Frontend sends the image to the backend API.
 
-Backend (FastAPI):
+**2. Backend:**
 
 Receives and preprocesses the image.
 
 Sends the image to the ML model for inference.
 
-ML Model (PyTorch):
+**3. ML Model:**
 
 ResNet50 model predicts the user’s emotion.
 
 Sends prediction back to the backend.
 
-Database (PostgreSQL on AWS RDS):
+**4. Database:**
 
 Backend stores prediction, timestamp, and user info.
 
 Provides historical data for dashboard charts.
 
-Cloud Hosting (AWS):
+**5. Cloud Hosting:**
 
 Backend and model run in Docker containers on AWS EC2.
 
 Model weights and assets are stored in AWS S3.
 
-CI/CD Pipeline:
+**6. CI/CD Pipeline:**
 
 GitHub Actions runs tests, builds Docker images, and deploys changes automatically.
 
-🖥️ User Experience
+## User Experience
 
-Open the Sentiview web app.
+1. Open the Sentiview web app.
 
-Upload a selfie or select a previously uploaded image.
+2. Upload a selfie or select a previously uploaded image.
 
-Receive a real-time emotion prediction.
+3. Receive a real-time emotion prediction.
 
-View analytics dashboards with historical trends over days, weeks, and months.
-
-(Optional) Download your mood data or integrate it with other mental wellness tools.
+4. View analytics dashboards with historical trends over days, weeks, and months.
