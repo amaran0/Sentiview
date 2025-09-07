@@ -46,15 +46,14 @@ Built with Chart.js/Recharts for professional-grade data visualization.
 
 ## Tech Stack
 
-**Machine Learning:**	PyTorch, torchvision, OpenCV, NumPy, pandas, scikit-learn
-**Data Storage:**	PostgreSQL (AWS RDS), AWS S3, SQLAlchemy ORM
-**Backend:**	FastAPI, Python 3.10, Uvicorn, Pydantic
-**Frontend:**	Next.js, React, TailwindCSS, Chart.js/Recharts
-**Containerization:**	Docker, Docker Compose
-**Cloud Deployment:**	AWS EC2, RDS, S3
-**CI/CD:**	GitHub Actions
-**DevOps/MLOps:**	MLflow (optional), Terraform (optional)
-**Agile Practices:**	Scrum, Git branching workflows, feature PR reviews
+**Machine Learning:**	PyTorch, torchvision, OpenCV, NumPy, pandas, scikit-learn\\
+**Data Storage:**	PostgreSQL (AWS RDS), AWS S3, SQLAlchemy ORM\\
+**Backend:**	FastAPI, Python 3.10, Uvicorn, Pydantic\\
+**Frontend:**	Next.js, React, TailwindCSS, Chart.js/Recharts\\
+**Containerization:**	Docker, Docker Compose\\
+**Cloud Deployment:**	AWS EC2, RDS, S3\\
+**CI/CD:**	GitHub Actions\\
+**Agile Practices:**	Scrum, Git branching workflows, feature PR reviews\\
 
 
 🏛️ Architecture Overview
