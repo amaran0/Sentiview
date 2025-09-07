@@ -110,3 +110,8 @@ GitHub Actions runs tests, builds Docker images, and deploys changes automatical
 3. Receive a real-time emotion prediction.
 
 4. View analytics dashboards with historical trends over days, weeks, and months.
+
+## Contact
+
+**Email:** maran0@purdue.edu, aggar149@purdue.edu
+**Linked-in:** https://www.linkedin.com/in/arya-maran, https://www.linkedin.com/in/aksh-aggarwal/
