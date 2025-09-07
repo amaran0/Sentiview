@@ -1,29 +1,30 @@
 # Sentiview
+## Build Status: Building
 
-## AI-Powered Emotion Tracking Web App
+## Overview
 
 Sentiview is a full-stack, cloud-deployed web application that helps users monitor their emotional well-being over time. It leverages deep learning and computer vision to classify emotions (happy, sad, angry, surprised, disgusted, fearful, neutral) from uploaded selfies and stores predictions in a secure PostgreSQL database. Users can view emotion trends through an intuitive dashboard, reflecting their mood patterns over time.
 
 This project demonstrates expertise in:
 
-Machine Learning & Computer Vision
+ - Machine Learning & Computer Vision
 
-Full-Stack Web Development
+ - Full-Stack Web Development
 
-Cloud Computing & Deployment
+ - Cloud Computing & Deployment
 
-MLOps & Containerization
+ - MLOps & Containerization
 
-Agile/DevOps Engineering Practices
+ - Agile/DevOps Engineering Practices
 
-🚀 Key Features
-🔹 Emotion Detection
+## Key Features
+### Emotion Detection
 
 Fine-tuned ResNet50 deep learning model (trained on FER2013, ~35k labeled images).
 
 Preprocessing pipeline built with OpenCV and torchvision.
 
-🔹 Cloud-Based Architecture
+### Cloud-Based Architecture
 
 PostgreSQL (AWS RDS) stores user data, predictions, and timestamps.
 
@@ -31,29 +32,31 @@ AWS S3 for model weight and static asset storage.
 
 Backend (FastAPI) and Frontend (Next.js) hosted in the cloud for global accessibility.
 
-🔹 Containerization & CI/CD
+### Containerization & CI/CD
 
 Fully Dockerized backend and model service for reproducibility.
 
 GitHub Actions pipeline for automated testing, building, and deployment.
 
-🔹 Interactive Dashboard
+### Interactive Dashboard
 
 Visualizations for weekly, monthly, and lifetime mood analytics.
 
 Built with Chart.js/Recharts for professional-grade data visualization.
 
-🏗️ Tech Stack
-Layer	Technologies Used
-Machine Learning	PyTorch, torchvision, OpenCV, NumPy, pandas, scikit-learn
-Data Layer	PostgreSQL (AWS RDS), AWS S3, SQLAlchemy ORM
-Backend	FastAPI, Python 3.10, Uvicorn, Pydantic
-Frontend	Next.js, React, TailwindCSS, Chart.js/Recharts
-Containerization	Docker, Docker Compose
-Cloud Deployment	AWS EC2, RDS, S3
-CI/CD	GitHub Actions
-DevOps/MLOps	MLflow (optional), Terraform (optional)
-Agile Practices	Scrum, Git branching workflows, feature PR reviews
+## Tech Stack
+
+**Machine Learning:**	PyTorch, torchvision, OpenCV, NumPy, pandas, scikit-learn
+**Data Storage:**	PostgreSQL (AWS RDS), AWS S3, SQLAlchemy ORM
+**Backend:**	FastAPI, Python 3.10, Uvicorn, Pydantic
+**Frontend:**	Next.js, React, TailwindCSS, Chart.js/Recharts
+**Containerization:**	Docker, Docker Compose
+**Cloud Deployment:**	AWS EC2, RDS, S3
+**CI/CD:**	GitHub Actions
+**DevOps/MLOps:**	MLflow (optional), Terraform (optional)
+**Agile Practices:**	Scrum, Git branching workflows, feature PR reviews
+
+
 🏛️ Architecture Overview
 
 Here’s how Sentiview’s components communicate:
