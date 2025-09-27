@@ -1,24 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import VisualEditsMessenger from "../visual-edits/VisualEditsMessenger";
 import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/sonner";
+import VisualEditsMessengerClient from "../visual-edits/VisualEditsMessengerClient";
 
 export const metadata: Metadata = {
   title: "SentiView",
   description: "SentiView – Emotion insights from photos with a privacy-first analytics dashboard.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <head>
-      </head>
+      <head></head>
       <body className="antialiased">
         <ErrorReporter />
         <Script
@@ -31,9 +26,9 @@ export default function RootLayout({
           data-debug="true"
           data-custom-data='{"appName": "YourApp", "version": "1.0.0", "greeting": "hi"}'
         />
+        <VisualEditsMessengerClient />
         {children}
         <Toaster position="top-right" richColors expand />
-        <VisualEditsMessenger />
       </body>
     </html>
   );
