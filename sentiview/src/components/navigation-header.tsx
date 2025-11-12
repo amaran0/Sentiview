@@ -128,7 +128,7 @@ export default function NavigationHeader({
         <Link href="/" className="min-w-0 group" aria-label="SentiView home">
           <div className="flex items-center gap-2 rounded-full bg-gradient-to-r from-accent/60 to-secondary/80 ring-1 ring-border px-2.5 py-1">
             <div aria-hidden="true" className="h-8 w-8 rounded-md bg-secondary ring-1 ring-border flex items-center justify-center">
-              <span className="text-primary font-semibold text-sm">SV</span>
+              <img src="/sentiview_pfp.png" alt="Sentiview logo" className="h-6 w-8 rounded-md object-cover" />
             </div>
             <div className="flex flex-col min-w-0">
               <span className="font-heading font-semibold text-sm sm:text-base tracking-[-0.01em] truncate">
